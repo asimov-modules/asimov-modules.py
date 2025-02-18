@@ -1,6 +1,6 @@
 [project]
 name = "asimov-modules"
-version = "0.0.0"
+version = "25.0.0.dev0"
 description = "ASIMOV Modules for Python"
 readme = "README.md"
 authors = [{ name = "ASIMOV Protocol", email = "support@asimov.so" }]
@@ -11,6 +11,7 @@ classifiers = [
     "Environment :: MacOS X",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "License :: Public Domain",
     "Operating System :: MacOS :: MacOS X",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.13",

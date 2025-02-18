@@ -17,7 +17,7 @@ wheels = [
 
 [[package]]
 name = "asimov-modules"
-version = "0.0.0"
+version = "25.0.0.dev0"
 source = { editable = "." }
 dependencies = [
     { name = "asimov-mlx-module" },
