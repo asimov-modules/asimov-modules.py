@@ -1,0 +1,39 @@
+[project]
+name = "asimov-modules"
+version = "0.0.0"
+description = "ASIMOV Modules for Python"
+readme = "README.md"
+authors = [{ name = "ASIMOV Protocol", email = "support@asimov.so" }]
+license = { text = "Unlicense" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Environment :: MacOS X",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: General",
+]
+requires-python = ">= 3.13"
+dynamic = ["dependencies"]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/asimov-modules/asimov-modules.py"
+Documentation = "https://github.com/asimov-modules/asimov-modules.py"
+Repository = "https://github.com/asimov-modules/asimov-modules.py.git"
+Issues = "https://github.com/asimov-modules/asimov-modules.py/issues"
+Changelog = "https://github.com/asimov-modules/asimov-modules.py/blob/master/CHANGES.md"
+
+[tool.setuptools]
+license-files = [] # see: https://github.com/astral-sh/uv/issues/9513
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
